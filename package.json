@@ -1,0 +1,19 @@
+{
+  "name": "gh-app-paywall",
+  "version": "1.0.0",
+  "description": "GitHub App paywall API",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.js",
+    "dev": "node --watch --env-file-if-exists=.env src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RickardHF",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "libsodium-wrappers": "^0.7.15",
+    "octokit": "^4.1.0"
+  }
+}
